@@ -3,5 +3,8 @@
   <h1>
     Welcome to {{ title }}!
   </h1>
-</ul>
+  <button (click) = "startDemo()"> Start </button>
+</div>
+
+<p *ngFor="let message of rxjsDemo.logMessages"> {{ message}} </p>
 
