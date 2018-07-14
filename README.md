@@ -1,5 +1,7 @@
 # Rxjs6Demo
 
+https://github.com/PacktPublishing/Architecting-Angular-Applications-with-Redux-RxJS-and-NgRx
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.1.
 
 ## Development server

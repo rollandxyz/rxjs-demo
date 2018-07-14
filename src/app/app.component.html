@@ -6,5 +6,22 @@
   <button (click) = "startDemo()"> Start </button>
 </div>
 
-<p *ngFor="let message of rxjsDemo.logMessages"> {{ message}} </p>
+<!--
+<div *ngFor="let result of geocodeResults"> 
+  <p *ngFor="let suggestion of result.suggestions"> 
+    {{ suggestion.text }}
+    {{ suggestion.magicKey }} 
+    {{ suggestion.isCollection }}
+  </p>
+</div> 
+-->
 
+<div *ngFor="let result of geocodeResults"> 
+  {{ result }}
+</div>
+
+<!--
+<app-arcgis-geocoder> </app-arcgis-geocoder>
+-->
+
+<app-rxjs-demo></app-rxjs-demo>

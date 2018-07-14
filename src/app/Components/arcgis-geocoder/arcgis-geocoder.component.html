@@ -1,0 +1,8 @@
+<p *ngFor="let suggestion of suggestions">
+  {{suggestion.text}}
+  {{suggestion.magicKey}}
+  {{suggestion.isCollection}}
+</p>
+<div *ngFor="let cand of candidates"> 
+  <p> {{cand.address}} -  {{cand.location.x}}  -  {{cand.location.y}}  </p>
+</div>
